@@ -10,7 +10,7 @@ function Home() {
     <h2 className="mt-2 text-lg font-medium text-amber-400">Financial Statements</h2>
   </div>
 
-<p className="mx-20 text-lg text-green-200">
+<p className="mx-20 text-lg text-green-500">
   We are a new company. Year 2026 is our first year of operations. On this site, we will disclose our financial statements to investors.
 </p>
 
