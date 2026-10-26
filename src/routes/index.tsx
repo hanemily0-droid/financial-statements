@@ -25,6 +25,15 @@ function Home() {
   and 14 staff members.
 </p>
 
+<h2>What we bake</h2>
+<ul className="list-disc pl-6">
+  <li>Sourdough, semolina, and rye loaves</li>
+  <li>Kaiser rolls, hero bread, and dinner rolls</li>
+  <li>Croissants, danishes, and morning pastry</li>
+  <li>Cheesecake, black and white cookies, and sheet cakes</li>
+  <li>Seasonal orders, including hot cross buns and tsoureki</li>
+</ul>
+
 </div>
 
 
