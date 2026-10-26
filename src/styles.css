@@ -20,11 +20,13 @@
     font-family: var(--font-body);
   }
 
-  :focus-visible {
-    outline: 2px solid var(--color-ink);
-    outline-offset: 2px;
-  }
+  
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 4px;
 }
+
+  }
 
 @theme {
   --font-display: "Bricolage Grotesque", Arial, sans-serif;
