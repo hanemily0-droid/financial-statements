@@ -11,11 +11,24 @@
       --color-accent: #ff80ab;
     } 
     
-    @layer base {  
-      body {    
-        margin: 0;    
-        background-color: var(--color-page);    
-        color: var(--color-ink);    
-        font-family: Arial, sans-serif;  
-      }
-    }
+    
+@layer base {
+  body {
+    margin: 0;
+    background-color: var(--color-page);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 2px;
+  }
+}
+
+@theme {
+  --font-display: "Bricolage Grotesque", Arial, sans-serif;
+  --font-body: "IBM Plex Sans", Arial, sans-serif;
+}
+
+
