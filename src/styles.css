@@ -1,7 +1,7 @@
 @import "tailwindcss"; 
 
 @theme {
-     --color-page: #202936;
+     --color-page: #131a24;
      --color-surface: #202936;
      --color-raised: #2c394b;
       --color-edge: #8798ad;
