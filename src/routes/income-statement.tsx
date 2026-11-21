@@ -18,6 +18,7 @@ function IncomeStatement() {
       <p className="mt-4 text-ink-soft">Amounts are whole US dollars. Expenses are deductions shown in parentheses.
   This example assumes no other income, expenses, interest, or income taxes.
 </p>
+<div className="max-w-2xl mx-auto mt-10 border border-edge rounded-md bg-surface overflow-x-auto">
 <table>
   <thead>
     <tr>
@@ -48,6 +49,7 @@ function IncomeStatement() {
 </tr>
   </tbody>
 </table>
+</div>
     </div>
   )
 }
