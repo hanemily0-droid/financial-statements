@@ -17,6 +17,7 @@ export const Route = createRootRoute({
       { title: "Kissena Baked Goods" },
     ],
     links: [
+      { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
       {
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap',
